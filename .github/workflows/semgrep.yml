@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: gemfile-file
-          path: gemfile.lock
+          path: Gemfile.lock
       - name: Download artifact from previous job
         uses: actions/download-artifact@v3
         with:
