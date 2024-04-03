@@ -11,12 +11,14 @@ GEM
       rack-protection (= 2.0.5)
       tilt (~> 2.0)
     tilt (2.0.9)
+    bullet (7.1.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   sinatra
+  bullet
 
 BUNDLED WITH
    2.0.1
